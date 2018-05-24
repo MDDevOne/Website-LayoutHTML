@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Fondamento" rel="stylesheet">
+    
+    
+    <title>Homepage of *MDDevOne*</title>
+    </head>
+    
+    <body>
+        <Header>Michael A. Davis</Header>
+        <br>
+        <div id= "P1">
+        <p1>My career objective is to craft desirable client project solutions as a Remote Software Developer.
+        </p1>
+        </div>
+    <br>
+    
+    <img src="" alt="Displaying Michael Davis.jpg" style="width:500px;height:500px;object-fit:cover;margin:5px;border:3px;border-style:inset;float:center;opacity:0.75;box-shadow:0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);" aria-hidden="true">
+    <br>
+    <br>
+    
+          <div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Certifications
+      <i class="fa fa-angle-double-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+        <ol>
+      <a href="https://www.sololearn.com/Certificate/1014-5715508/pdf/" target="_blank">HTML</a>
+      <a href="https://www.sololearn.com/Certificate/1068-5715508/pdf/" target="_blank">Java</a>
+      <a href="https://www.sololearn.com/Certificate/1024-5715508/pdf/" target="_blank">JavaScript</a>
+      <a href="https://www.sololearn.com/Certificate/1059-5715508/pdf/" target="_blank">PHP</a>
+      <a href="https://www.sololearn.com/Certificate/1073-5715508/pdf/" target="_blank">Python</a>
+      <a href="https://www.sololearn.com/Certificate/1081-5715508/pdf/" target="_blank">Ruby</a>
+      <a href="https://www.sololearn.com/Certificate/1060-5715508/pdf/" target="_blank">SQL</a>
+       </ol>
+    </div>
+   </div>
+  </div> 
+<br>
+<br>
+<br>
+<br>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+        <div id= "P2">
+        <p2>I am a graduate of American InterContinental University Class of 2015. My Bachelor's Degree is in Information Technology with a concentration in Software Analysis and Development. I would like to use this opportunity to show off if I may. Of course I may. This is my page!</p2>
+        </div>
+        <br>
+
+ <div class="dropdown2">
+  <span>Contact Information</span>
+  <div class="dropdown-content2">
+    <p1>Email: "michaeld7733@gmail.com"</p1>
+    <br>
+    <p2>Skype: "michael.davis979"</p2>
+    <br>
+    <p3>Git: *MDDevOne*</p3>
+    <br>
+    <p4>Phone: (615) 956-****</p4>
+  </div>
+    </div>
+    <br>
+    <br>
+    
+    <img src="" class="drive-viewer-image-img" alt="Displaying AIU Bachelors Degree for Michael Davis.jpg" style="width:500px;height:375px;object-fit:fill;margin:3px;border:5px;border-style:inset;float:center;opacity:0.75;box-shadow:0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);" aria-hidden="true">
+    
+    <br>
+    <br>
+   
+     <footer>"We're not in the paper business, we're in the people business and people will never go out of business. -Michael Scott" 
+     <br>
+     <en id= MD>- Michael A. Davis</en></footer>
+    </body>
+   
+</html>
