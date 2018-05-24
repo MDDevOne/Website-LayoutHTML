@@ -1,0 +1,198 @@
+/*Base CSS*/
+HTML { 
+    background: url(https://media.giphy.com/media/oGRQGVNePzVRK/giphy.gif);
+    background-size: 100%100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: 'Fondamento', cursive;
+    margin:auto;
+}
+
+ Header{
+    border-radius: 75px;
+    box-shadow: 0 10px 10px rgba(0,128,0,.5), 0 -10px 20px rgba(180,180,180,.5);
+    width:auto;
+    height: auto;
+    color: rgb(255,255,255);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+    font-family: 'Eagle Lake', cursive;
+    font-weight: bolder;
+    font-size: 2.75em;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    margin:5px;
+    background: blue; /* For browsers that do not support gradients */
+    
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-repeating-radial-gradient(rgba(255,255,255,0) 15%, rgba(0,0,230,.5) 25%, rgba(180,180,180,.5) 40%);
+  /* For Opera 11.6 to 12.0 */
+  background: -o-repeating-radial-gradient(rgba(255,255,255,0) 15%, rgba(0,0,230,.5) 25%, rgba(180,180,180,.5) 40%);
+  /* For Firefox 3.6 to 15 */
+  background: -moz-repeating-radial-gradient(rgba(255,255,255,0) 15%, rgba(0,0,230,.5) 25%, rgba(180,180,180,.5) 40%);
+  
+  /* Standard syntax *//*Working Sololearn*/
+  background: repeating-radial-gradient(rgba(255,255,255,0) 15%, rgba(200,200,230,.5) 25%, rgba(180,180,180,.5) 40%);
+    
+    -moz--webkit-animation: mymove 4.75s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 4.75s infinite;
+}
+    
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {50% {background-color: rgb(0,128,0)}}
+
+/* Standard syntax */
+@keyframes mymove {50% {background-color: rgb(0,128,0)}}
+ 
+.navbar {
+    overflow: visible;
+    background-color: rgba(180,180,180,.25);
+    margin:5px;
+}
+
+.navbar a {
+    float: right;
+    font-size: .75em;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+}
+
+.dropdown{
+    float: left;
+    overflow: visible;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+}
+
+.dropdown .dropbtn{
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: rgb(255,255,255);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+    font-family: 'Eagle Lake', cursive;
+    padding: 14px 16px;
+    background-color: rgba(180,180,180,.25);
+}
+
+.navbar a:hover {
+    opacity: 0.75;
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 100%);
+     text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+  
+.dropdown:hover .dropbtn{
+    opacity: 0.75;
+    color: rgb(255,255,255);
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 100%);
+     text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    text-align: left;
+    min-width: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+    overflow: visible;
+    opacity:0.75;
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 100%);
+     text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+ 
+.dropdown-content a{
+    float: left;
+    color: rgb(255,255,255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    overflow: auto;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 100%);
+    opacity:1;
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+
+.dropdown-content a:hover{
+    overflow: auto;
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 100%);
+    opacity:1;
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+    
+.show {
+    display: block;
+    opacity:0.75;
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+
+/*Body*/
+#P1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 -5px 10px rgba(0,128,0,1), 0 5px 5px rgba(0,0,0,1);
+    font-size: 1.35em;
+    margin:auto;
+}
+
+#P2{
+    text-indent: 5%;
+    color: rgb(255,255,255);
+    font-size: 1.15em;
+    text-shadow: 0 -5px 10px rgba(180,180,180,1), 0 5px 5px rgba(0,0,0,1);
+    margin:auto;
+    padding:3px;
+    position:relative;
+}
+    
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    padding:2px;
+    text-align: left;
+    color:rgba(255,255,255,1);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+    background-color: rgba(180,180,180,.25);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+}
+
+.dropdown-content2 {
+    display: none;
+    position: relative;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(0, 128, 0) 25%);
+    color:rgba(255,255,255,1);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+    padding: 12px 16px;
+    z-index: -1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+    color:rgba(255,255,255,1);
+    opacity:0.75;
+    max-width:100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+
+footer{
+    font-size:1.1em;
+    margin: 95px;
+    width:auto;
+    height:auto;
+    text-align:center;
+    font-style:italic;
+    color:rgb(255,255,255);
+    text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(0, 128, 0, 1), 0 -5px 10px rgb(120,120,120);
+}
+
+#MD{text-shadow: 0 5px 10px rgba(255,255,255,.5), 0 0 25px rgba(255, 230, 0, 1), 0 -5px 10px rgb(120,120,120);}
